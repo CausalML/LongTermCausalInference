@@ -1,5 +1,5 @@
 # LongTermCausalInference 
-Codes for the paper ``Long-term causal inference under persistent confounding via data combination'' 
+Codes for the paper "Long-term causal inference under persistent confounding via data combination"
 
 # Description of files
 ## Code for numerical experiment with GAIN dataset
