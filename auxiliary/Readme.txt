@@ -1,4 +1,4 @@
-This is code is used to generate Tables 1, 4-5 and Figure 3 in the 
+This code is used to generate Tables 1, 4-5 and Figure 3 in the 
 supplement.
 
 To generate the tables, first place the data file `quartly.mat` into 
