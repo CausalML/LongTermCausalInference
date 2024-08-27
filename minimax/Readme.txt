@@ -1,4 +1,4 @@
-This is code is used to generate Table 2 in the main text 
+This code is used to generate Table 2 in the main text 
 as well as Table 10 in the supplement.
 
 To generate the result for each cell in the table, first edit 
