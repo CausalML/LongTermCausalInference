@@ -1,23 +1,25 @@
-This is code is used to generate Table 1 in the main text 
-as well as Tables 2 and 5-9 in the supplement.
+This code is used to generate Table 1 in the main text, 
+as well as Tables 2 and 5-9 in the Supplement.
 
-To generate Table 1, first put the data file "quartly.mat" 
-into this folder and run "R --no-save --args < pipeline_data.R"
-to create the processed data, then run "./run_all.sh" to 
-execute each method, finally run "R --no-save --args < test_final.R"
-to obtain all data for the table.
+To generate Table 1, first place the data file `quartly.mat`
+(available upon request) into this folder and run `R --no-save --args < pipeline_data.R` 
+to create the semi-synthetic data. Then, run `./run_all.sh` 
+to execute each method. Finally, run `R --no-save --args < test_final.R` 
+to obtain the table.
 
-To generate Table 2 in the Supplementary Material, use the same 
-steps for Table 2, except that run "R --no-save --args < test_raw.R" 
-in the last step.
+To generate Table 2 in the Supplementary Material, 
+follow the same steps as above, but in the last step, 
+run `R --no-save --args < test_raw.R`.
 
-To generate Tables 5-8 in the Supplementary Material, change the 
-code "pipeline_data.R" according to the instructions that are 
-appeared as the comment in the source file "pipeline_data.R" to 
-regenerate the processed data, then follow the same steps as in 
-generating Table 1 to generate Tables 5-8.
+To generate Tables 5-8 in the Supplementary Material, 
+modify the code in `pipeline_data.R` according to the 
+instructions in the comments (lines 5-12) within the 
+source file to generate the semi-synthetic data, then
+follow the same steps as for Table 1.
 
-To generate Table 9, you need to follow the same procedure as 
-generating Table 1, except that you need to change the code in 
-R scripts "main.R", "main_ridge_n1.R", "main_ridge_n3.R" according 
-to the comments in those scripts.
+To generate Table 9, follow the same procedure as for 
+Table 1, but change the code in the R scripts `main.R`, 
+`main_ridge_n1.R` and `main_ridge_n3.R` according to 
+the comments in those scripts. See lines 91-94 in `main.R`, 
+lines 102-105 in `main_ridge_n1.R`, and lines 96-99 in 
+`main_ridge_n3.R` for those comments.
