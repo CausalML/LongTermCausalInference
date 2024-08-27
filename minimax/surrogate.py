@@ -16,14 +16,13 @@ import sys
 
 
 #
-#Change the dimension of X, S as well as the number of 
-#neurons in the first hidden layer numneuron according 
-#to the setting specified in each cell of the table; 
-#for example, if you would like to replicate the simulation 
-#in the bottom-left cell, then you have to set dimX = 5,
-#dimS = 5 and set numneuron = 30. The choice of number 
-#of neurons in each result is described in the first 
-#paragraph of Section F.3 in the Supplementary Material.
+# Change the dimensions of X and S, as well as the number of 
+# neurons in the first hidden layer (numneuron), according 
+# to the settings specified in each cell of the table. 
+# For example, to replicate the simulation in the bottom-left cell, 
+# set dimX = 5, dimS = 5, and numneuron = 30. The choice of the number 
+# of neurons for each result is described in the first 
+# paragraph of Section F.3 in the Supplementary Material.
 #
 dimX = 10
 dimS = 5
