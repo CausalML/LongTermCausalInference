@@ -17,9 +17,9 @@ instructions in the comments (lines 5-12) in that R
 script to generate the semi-synthetic data, then
 follow the same steps as for Table 1.
 
-To generate Table 9, follow the same procedure as for 
-Table 1, but change the code in the R scripts `main.R`, 
-`main_ridge_n1.R` and `main_ridge_n3.R` according to 
-the comments in those scripts. See lines 91-94 in `main.R`, 
-lines 102-105 in `main_ridge_n1.R`, and lines 96-99 in 
-`main_ridge_n3.R` for those comments.
+To generate Table 9 in the Supplementary Material, follow 
+the same procedure as for Table 1, but change the code in 
+the R scripts `main.R`, `main_ridge_n1.R` and `main_ridge_n3.R` 
+according to the comments in those scripts. See lines 91-94 
+in `main.R`, lines 102-105 in `main_ridge_n1.R`, and lines 
+96-99 in `main_ridge_n3.R` for those comments.
