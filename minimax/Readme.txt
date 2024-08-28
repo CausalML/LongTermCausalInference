@@ -7,5 +7,6 @@ as well as the degree of nonlinearity q. Next edit the python
 script `surrogate.py' and the R script `ridge.R` to specify the 
 dimensions of X, S1/S3, and the number of neurons in the first 
 hidden layer of the neural network. After making these edits, 
-run `./run_all.sh` first, then execute `R --no-save --args < evaluate.R' 
-to generate the result for that cell.
+run `R --no-save --args < data.R` first, then run `./run_all.sh`, 
+finally execute `R --no-save --args < evaluate.R' to generate the 
+results for that cell.
