@@ -13,8 +13,8 @@ run `R --no-save --args < test_raw.R`.
 
 To generate Tables 5-8 in the Supplementary Material, 
 modify the code in `pipeline_data.R` according to the 
-instructions in the comments (lines 5-12) within the 
-source file to generate the semi-synthetic data, then
+instructions in the comments (lines 5-12) in that R 
+script to generate the semi-synthetic data, then
 follow the same steps as for Table 1.
 
 To generate Table 9, follow the same procedure as for 
